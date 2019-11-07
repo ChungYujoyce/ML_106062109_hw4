@@ -83,7 +83,7 @@ Result:
 Ovserve:
 We can see that sum of error do not decrease in first hundreds of epochs, but after a gracefully weihgts modification, the error decreases dramatically to a quite low place.
 Similarly, accuracy is a kind of reverse index of sum of error, also dramatically(almost vertical) rises when epoch runs between 300~400.
-Therefore, keeping back propagate errors and update weights indeed can make the original-bad model a good one(need some time).
+Therefore, keeping back propagate errors and update weights indeed can make the original-bad model a good one(need some time since I set learning rate 0.1, it "learns slow").
 
 
 Problem 2:
