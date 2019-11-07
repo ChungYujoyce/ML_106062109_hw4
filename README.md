@@ -97,7 +97,7 @@ Observe:
 We can see that the MSE is a slowly increasing index in first several epochs, but the absolute fraction of change of MSE is decreasing.
 
 
-MSE will finally decrease if I don't break the foor loop.
+MSE will finally decrease if I don't break the for loop.
 
 
 ![](https://i.imgur.com/eHoPt3F.jpg)
