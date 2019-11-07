@@ -90,13 +90,21 @@ Problem 2:
 * 1. With different learning rate [0.1, 0.2, 0.3, 0.4, 0.5]
 
 Result:
-![](https://i.imgur.com/mLhrJpS.jpg)
 * learning rate 0.1
 ![](https://i.imgur.com/AgLrcoE.jpg)
 
 Observe:
-We can see that the MSE is a slowly increasing index, but the absolute fraction of change of MSE is decreasing.
-As learning rate increases, MSE inceases but  absolute fraction of change of MSE decreases much more. So we can see a negative slope curve of number-of-epoch-need when learning rate gets higher.
+We can see that the MSE is a slowly increasing index in first several epochs, but the absolute fraction of change of MSE is decreasing.
+
+
+MSE will finally decrease if I don't break the foor loop.
+
+
+![](https://i.imgur.com/eHoPt3F.jpg)
+
+As learning rate increases, MSE slightly inceases but absolute fraction of change of MSE decreases much more. So we can see a negative slope curve of number-of-epoch-need when learning rate gets higher.
+
+![](https://i.imgur.com/mLhrJpS.jpg)
 
 
 
